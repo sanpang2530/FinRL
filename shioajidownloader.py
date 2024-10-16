@@ -11,11 +11,11 @@ import shioaji as sj
 class SinopacDownloader:
 
     def __init__(
-        self,
-        start_date: str,
-        end_date: str,
-        ticker_list: list = [],
-        api: sj.Shioaji = None,
+            self,
+            start_date: str,
+            end_date: str,
+            ticker_list: list = [],
+            api: sj.Shioaji = None,
     ):
         if api is None:
             self.api = sj.Shioaji()
